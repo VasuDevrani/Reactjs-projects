@@ -1,0 +1,21 @@
+.counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter-num{
+    color: black;
+    font-size: 200px;
+}
+.counter-btn{
+    background-color: aqua;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    transition: all 600ms;
+    font-size: 30px;
+}
+.counter-btn:hover{
+    transform: scale(1.3);
+}

@@ -1,0 +1,23 @@
+.navbar{
+    background-color: black;
+    color:aliceblue;
+    font-size: 30px;
+    height: 60px;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+}
+.nav-items{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-counter{
+    margin-left: 100px;
+}
+.nav-items:hover{
+    color: bisque;
+}
