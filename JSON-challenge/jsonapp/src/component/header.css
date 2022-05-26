@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    width: 33.33%;
+    height: 4rem;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-left: 2px solid white;
+    transition: all 400ms;
+}
+.btn:hover{
+    background-color: crimson;
+    transform: scale(1.1);
+}
