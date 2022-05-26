@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.header p{
+    margin-top: 0;
+}
