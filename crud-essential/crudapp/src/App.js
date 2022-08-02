@@ -28,7 +28,6 @@ function App() {
       } catch (err) {
         console.log(err.stack);
         setFetchError(err.message);
-        console.log("hello");
       } finally {
         console.log("process ends");
         setLoading(false);
@@ -38,7 +37,7 @@ function App() {
     setTimeout(() => {
       fetchItems();
     }, 2000);
-  }, []);
+  }, [API_URL]);
 
   const addItem = async (item) => {
     const id = data.length ? data[data.length - 1].id + 1 : 1;

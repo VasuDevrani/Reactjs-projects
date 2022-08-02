@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Menuitems } from './Menuitems.js';
 import './navbar.css'
-// import {Button} from '../Button'
 
 export default class Navbar extends Component{
 

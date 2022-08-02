@@ -39,6 +39,11 @@
       "id": 8,
       "checked": false,
       "item": "Chickpea"
+    },
+    {
+      "id": 9,
+      "checked": false,
+      "item": "new item"
     }
   ]
 }
